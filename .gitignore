@@ -32,3 +32,16 @@ node_modules
 # VitePress
 **/.vitepress/dist
 **/.vitepress/cache
+
+# Local files
+~$*
+*.tmp
+Template_SanPham2.xlsx
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Frappe uploads / private files
+apps/item_master/uploads/
