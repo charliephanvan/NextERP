@@ -45,3 +45,10 @@ __pycache__/
 
 # Frappe uploads / private files
 apps/item_master/uploads/
+
+# Vendored app clone (822MB incl. node_modules + its own git history) - reclone via:
+# git clone --branch version-16 https://github.com/frappe/hrms apps/hrms
+apps/hrms/
+
+# Understand-Anything tool cache
+.understand-anything/
